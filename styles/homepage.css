@@ -1,0 +1,10 @@
+/* Parallax feature */
+.hero-section {
+    background-image: url(../images/fries-hero-bg.jpg);
+    padding: 10vmin;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

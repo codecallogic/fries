@@ -1,0 +1,12 @@
+.footer {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    padding: 5vmin 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vmin;
+    margin-top: -1vmin;
+}

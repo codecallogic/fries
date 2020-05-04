@@ -8,3 +8,78 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.hero-section > .top-heading {
+    background-color: #11122b;
+    color: #cbcbcb;
+    width: 50vmin;
+    border-radius: 1vmin;
+    padding: 1vmin 5vmin;;
+}
+
+.hero-section > .bottom-heading {
+    background-color: #cea135;
+    color: #11122b;
+    padding: 1vmin 5vmin;
+    margin-top: 3vmin;
+    width: 30vmin;
+    border-radius: 1vmin;
+}
+
+/* Features Section */
+
+.features-section {
+    height: 50vmin;
+    background-image: url(https://i.imgur.com/C8XUfPy.jpg);
+    background-color: #cea135;
+    border-top: 2vmin solid white;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    /* Adding box shadows */
+    box-shadow: inset 0vmin -7vmin 8vmin -2vmin rgba(0, 0, 0, .58)
+}
+
+.features-section > .columns-wrapper {
+    widtH: 120vmin;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+   padding: 1.2vmin;
+   margin: 5vmin;
+   text-align: center;
+   border-bottom: .5vmin solid transparent;
+   border-radius: 2vmin;
+   transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: .5vmin solid #11122b;
+}
+
+/* Working with :nth-childs */
+
+.features-section > .columns-wrapper > .column :nth-child(1){
+    font-size: 3em;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2){
+    font-size: 1.3em;
+    font-weight: 900;
+    height: 6vmin;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2):hover {
+    letter-spacing: .2vmin;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3){
+    letter-spacing: .2vmin;
+}
+

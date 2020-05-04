@@ -1,5 +1,5 @@
 .navigation-wrapper {
-    height: 15vmin;
+    height: 20vmin;
     background-color: #11122b;
     color: #cbcbcb;
     display: flex;
@@ -51,7 +51,7 @@
 .navigation-wrapper > .center-column {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 2vmin;
+    grid-gap: 3vmin;
     width: 80vmin;
 }
 
@@ -69,11 +69,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 5vmin;
+    
 }
 
-.links-wrapper > nav-link {
-    width: 70px; 
+.links-wrapper > .nav-link{
+    width: 13vmin; 
     text-align: center;
 }
 

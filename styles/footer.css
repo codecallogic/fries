@@ -10,3 +10,50 @@
     height: 50vmin;
     margin-top: -1vmin;
 }
+
+.footer > .logo-footer img {
+    filter: brightness(50%);
+}
+
+.footer > .footer-phone-hours span{
+    margin-left: 2vmin; 
+    margin-right: 2vmin;
+    font-size: 1em;
+    letter-spacing: .5vmin;
+}
+
+.footer > .footer-phone-hours > .hours{
+    font-size: .8em;
+    color: #cea135;
+    text-transform: uppercase;
+}
+
+.footer > .links-wrapper {
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+    width: 95vmin;
+}
+
+.footer > .social-media-icons-wrapper {
+    margin-top: 3vmin;
+    margin-bottom: 3vmin;
+    width: 50vmin;
+    display:flex;
+    justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: .5s;
+}
+
+.footer > .social-media-icons-wrapper a:hover {
+    color: #cea135;
+}
+
+.footer > .copyright-wrapper {
+    margin-bottom: 5vmin;
+    font-size: .7em;
+    color: #858585;
+}

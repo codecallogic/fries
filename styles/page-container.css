@@ -1,0 +1,23 @@
+/* Page container style */
+
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .content-wrapper {
+    width: 110vmin;
+}
+
+.page-container > .content-wrapper > #chef {
+    width: 55vmin;
+    height: 40vmin;
+    margin: 3vmin 5vmin 5vmin 0vmin;
+    float: left;
+    border: .2vmin solid #cea135;
+}
+
+.page-container > .content-wrapper > p {
+    letter-spacing: .2vmin;
+    line-height: 5vmin;
+}

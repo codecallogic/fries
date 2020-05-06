@@ -6,3 +6,117 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
 }
+
+/* Skewed header */
+
+.skewed-header {
+    position: relative;
+    height: 45vmin;
+    overflow: hidden;
+}
+
+.skewed-header > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%)
+}
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    width: 50vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+    background-color: #cea135;
+    color: #11122b;
+    border-bottom-left-radius: .5vmin;
+    border-bottom-right-radius: .5vmin;
+    width: 20vmin;
+    padding: 2vmin;
+    text-align: center; 
+    font-size: 2vmin;
+}
+
+/* Page container style */
+
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .content-wrapper {
+    width: 110vmin;
+}
+
+.page-container > .content-wrapper > #chef {
+    width: 55vmin;
+    height: 40vmin;
+    margin: 3vmin 5vmin 5vmin 0vmin;
+    float: left;
+    border: .2vmin solid #cea135;
+}
+
+.page-container > .content-wrapper > p {
+    letter-spacing: .2vmin;
+    line-height: 5vmin;
+}
+
+/* Square grid styles */
+
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.squares-wrapper > .squares {
+    width: 110vmin;
+}
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -.5vmin;
+}
+
+.square > .img-wrapper img {
+    width: 100%;
+    height: 55vmin;
+    object-fit: cover;
+}
+
+.square > .square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vmin;
+}
+
+.square > .square-text-wrapper h1 {
+    color: #cea135;
+}
+
+/* Helpers */
+
+.spacer60 {
+    height: 8vmin;
+    width: 100%;
+}

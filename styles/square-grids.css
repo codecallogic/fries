@@ -12,7 +12,7 @@
 .squares-wrapper > .squares > .square {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: -.5vmin;
+    margin-top: -1vmin;
 }
 
 .square > .img-wrapper img {

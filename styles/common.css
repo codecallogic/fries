@@ -13,3 +13,19 @@ h1, h2, h3, h4, h5, h6 {
     height: 8vmin;
     width: 100%;
 }
+
+.anchor-link {
+    text-decoration: none;;
+}
+
+.anchor-link:focus{
+    outline: none;
+}
+
+.anchor-link h1::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c1";
+    font-weight: 900;
+    margin-left: 1vmin;
+    font-size: 4vmin;
+}

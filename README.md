@@ -9,9 +9,6 @@
 <li>HTML5</li>
 <li>CSS3</li>
 </ul>
-<br>
-<img src="https://github.com/codecallogic/mLoops/blob/master/images/Screen%20Shot%202020-03-06%20at%2012.47.15%20AM.png?raw=true">
-<br>
 <h1>Icebox Items</h1>
 <ul>
 <li>Implement Javascript and backend servers</li>

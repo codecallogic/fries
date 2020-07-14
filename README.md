@@ -16,4 +16,4 @@
 <br>
 </p>
 <h1>Getting started</h1>
-<h6><a href="https://codecallogic.github.io/fries" target="_blank" rel="noopener noreferrer">Visit</a></h6>
+<h3><a href="https://codecallogic.github.io/fries" target="_blank" rel="noopener noreferrer">Visit Page</a></h3>

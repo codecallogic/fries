@@ -33,9 +33,10 @@
 
 .navigation-wrapper > .left-column > .contact-hours-wrapper > .phone {
     font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1em;
 }
 
-.navigation-wrapper > left-column > .contact-hours-wrapper > .hours {
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .hours {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: #858585;
     font-size: .8em;

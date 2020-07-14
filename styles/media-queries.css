@@ -48,4 +48,50 @@
     .footer {
         height: 100%!important;
     }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content {
+        flex-direction: column!important;
+    }
+
+    .skewed-header > .header-bg {
+        background-size: 85vmin;
+    }
+
+    .page-container {
+        padding-left: 7vmin;
+        padding-right: 7vmin;
+        padding-bottom: 7vmin;
+    }
+
+    .content-wrapper > #chef {
+        margin: 5vmin 0vmin 5vmin 0vmin !important;
+        width: 100% !important;
+        height: 30%!important;
+    }
+
+    .square {
+        grid-template-columns: 1fr !important;
+    }
+
+    .square > .square-text-wrapper {
+        order: 1;
+    }
+
+    .square > .img-wrapper {
+        order: 2;
+    }
+
+    .contact-grid-wrapper {
+        width:100%!important;
+        grid-template-columns: 1fr!important;
+        grid-gap: 1vmin!important;
+    }
+
+    .form input {
+        padding: 1.5rem 0rem!important;
+    }
+
+    .form textarea {
+        padding: 1.5rem 0rem!important;
+    }
 }

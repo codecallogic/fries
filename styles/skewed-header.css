@@ -2,7 +2,7 @@
 
 .skewed-header {
     position: relative;
-    height: 45vmin;
+    height: 55vmin;
     overflow: hidden;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .skewed-header > .skewed-header-wrapper > .skewed-header-content {
-    width: 50vmin;
+    width: 100vmin;
     display: flex;
     justify-content: space-between;
     align-items: center;

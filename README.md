@@ -1,5 +1,5 @@
 <h1>Fries</h1>
-<p>Fries is websites utilizing some of CSS3 most advanced features, it uses strictly css and html for design purposes only.</p>
+<p>Fries is websites utilizing some of CSS3 most advanced features, it uses strictly css and html for design purposes only. The project is completely responsive design.</p>
 
 <img src="https://i.imgur.com/4jADcSH.jpg" alt="">
 
